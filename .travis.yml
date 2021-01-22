@@ -8,7 +8,8 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {PUT_YOUR_OWN_API_KEY_HERE}
-  app: sheltered-brook-11779
+    secure: BX20Z5OQQjcS1nBmtOOSFjvH+uzH85XzVNM1xSv/W/OLrSxO4/lMjXpdhpOYMd2HIchgI1QdAH9cC2nv4axtsN5PUFfBTlydsV/OYfug3+rUy1FNSWEzF66rSHbTMMlPEt16ySceHOvuDdgzS98p7RGOrgkzuzbQyjwKa5zCLqqugNHOmzKdpgSOkigGiJlf75N2+vZPwdCrgmyQPgQhkEfbAdbl4HnP4rDcchDVB2whQALdX1Nb4VC9+aKevhIRlSfJMEZHG+F1iLBD6IVF8OTYRBUDn9COwUqcjQ8+WsXRDKnHGl7/G9bTXDrxmCiEhvPRCBkBLJKYYJRMvKbZ0StTdm6Gn+8c4UF1zO1FvyxQ5UGU3NLb+2vGv8mfl/BpnSiKieFGERS2OMwrEc/M+sWdI1atrC5t4iP01aUw4kYGVfRTCCzCQeYtQN8WNjnFy4iLbKduPe6I7Mqb1Q/K4G6g6cMXfKdS/w7KGsHdQiqPjh54antmmBMEXggY0h1ASMgXdIn/RYpQy/ahC9ewNvcyfl6DHyu5P9yYAXLfEitoBkl5h7jXc186IviROQRe/jzijx+zHvTkwFzwRFmx81hix8wQSrVD9ZetfFAI4/Fu8oYsy5G3ZlGPxKC8PV6pOpKm/kS6wwvOLNQSakQVC4leVMdBrudTbWGPX/JYpxk=
+  app: unittest-travis-heroku
   on:
     repo: Jlin72/unittest-travis-heroku
+  skip_cleanup: 'true'

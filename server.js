@@ -19,4 +19,7 @@ const server = app.listen(PORT, () => {
 // eslint-disable-next-line no-console
 console.log('server.js: file has finished reading');
 
+// eslint-disable-next-line no-console
+console.log('I dont know');
+
 module.exports = server;
